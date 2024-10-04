@@ -1,0 +1,88 @@
+/* Header */
+.flex-container-1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937; 
+    padding-bottom: 120px;
+}
+/* Header title and links*/
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-grow: 1;
+    margin-left: 17%;
+}
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 17%;
+}
+.header-link {
+    margin-left: 5%;
+    text-decoration: none;
+}
+.header-link:hover, .header-link:visited {
+    color: #F9FAF8;
+}
+/* Header information */
+.sub-header-container {
+    display: flex;
+    align-items: center;
+}
+.header-text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 17%;
+    flex: 1;
+}
+.header-image-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 120, 129);
+    margin-right: 17%;
+    margin-left: 5%;
+    color: white;
+    flex: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    line-height: 50px;
+    margin: 0;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+}
+/* Sign up button */
+.sign-up-button {
+    font-weight: 600;
+    background-color: #3882F6;
+    align-items: center;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.sign-up-button:hover, .sign-up-button:visited {
+    color: white;
+}
+/* Some random information */
+.flex-container-2 {
+}
